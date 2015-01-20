@@ -1,11 +1,12 @@
-# html-json
+ html-json
 
 Simple helper to convert HTML content to JSON
 
-Usage
----------------
+#Usage
+ 
 - Query sytna based on cherrio https://github.com/cheeriojs/cheerio 
-- Simple query
+
+###Simple query###
 ```
   json = require('html-json')(pageContent).extract({
     'title' : title: 'div.container > h1' // by default to get
@@ -17,7 +18,7 @@ Usage
   }
 ```
 
-- Function
+###Function###
 ```
   json = require('html-json')(pageContent).extract({
     author_page_uri: function($body) {
@@ -33,7 +34,7 @@ Usage
 
 
 
-- LIST
+###LIST###
 ```
   json = require('html-json')(pageContent).extract({
     author_page_uri: function($body) {
@@ -68,7 +69,7 @@ Usage
 
 
 
-- OBJECT
+###OBJECT###
 ```
   json = require('html-json')(pageContent).extract({
     author_page_uri: function($body) {
@@ -94,3 +95,5 @@ Usage
     }
   }
 ```
+
+More example please reference `test/test.js`
