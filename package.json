@@ -1,0 +1,18 @@
+{
+  "name": "html-json",
+  "version": "1.0.0",
+  "description": "Convert HTML to JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha && exit 1"
+  },
+  "author": "RogerHo",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.18.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rogerhokp/html-to-json"
+  }
+}
