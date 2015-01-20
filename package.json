@@ -1,6 +1,6 @@
 {
   "name": "html-json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert HTML to JSON",
   "main": "index.js",
   "scripts": {
