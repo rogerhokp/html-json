@@ -9,7 +9,7 @@ Simple helper to convert HTML content to JSON
 ###Simple query###
 ```
   json = require('html-json')(pageContent).extract({
-    'title' : title: 'div.container > h1' // by default to get
+    'title' : title: 'div.container > h1' // by default to get text 
   });
   
   //result 
